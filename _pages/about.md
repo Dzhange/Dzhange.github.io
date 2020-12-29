@@ -10,3 +10,5 @@ redirect_from:
 
 I'm a senior undergraduate in ShanghaiTech University, majored in Computer Science. I'm expected to graduate in June 2021, and I'm openning for PhD positions.
 
+My research interest lies in Computer Vision, Computer Graphics and Machine Learning. I'm particularly interested in 3D vision and computational geomotries.
+
