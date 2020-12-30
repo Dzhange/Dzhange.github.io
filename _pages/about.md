@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ge Zhang"
+title: "Ge Zhang 张哿"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
