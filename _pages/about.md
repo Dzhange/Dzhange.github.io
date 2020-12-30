@@ -12,5 +12,5 @@ I'm a senior undergraduate in ShanghaiTech University, majored in Computer Scien
 
 My research interest lies in Computer Vision, Computer Graphics and Machine Learning. I'm particularly interested in 3D vision and computational geomotries.
 
-The website is still under reconstruction.
+The website is still under construction.
 =====
