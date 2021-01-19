@@ -1,15 +1,22 @@
 ---
-title: "Paper Title Number 1"
+title: "StrobeNet: Category-Level Multiview Reconstruction of Articulated Objects"
 collection: researches
-permalink: /researches/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /researches/StrobeNet
+excerpt: 'We present StrobeNet, a method for category-level 3D reconstruction of articulating objects from one or more RGB 
+images. Reconstructing general articulating object categories has important applications, but is challenging since objects can have wide variation in shape, appearance and topology. We address this problem by building on the idea of category-level articulation canonicalization – mapping object observations to a canonical articulation which enables correspondence-free multiview aggregation. Our endto-end trainable neural network estimates feature-enriched canonical 3D point clouds, articulation joints, and part segmentation from one or more images. These intermediate estimates are used to generate an implicit function as the final shape reconstruction. Our approach can reconstruct objects even when they are observed in different articulations in images with large baselines, and allows reconstruction of animatable 3D models of objects. Quantitative and qualitative evaluations on our new benchmark dataset demonstrate that our method is able to achieve high reconstruction accuracy, especially as more views are added.'
+# date: 2019-10-01
+# venue: 'Journal 1'
+paperurl: ''
+
+# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+We present StrobeNet, a method for category-level 3D reconstruction of articulating objects from one or more RGB 
+images. Reconstructing general articulating object categories has important applications, but is challenging since objects can have wide variation in shape, appearance and topology. We address this problem by building on the idea of category-level articulation canonicalization – mapping object observations to a canonical articulation which enables correspondence-free multiview aggregation. Our endto-end trainable neural network estimates feature-enriched canonical 3D point clouds, articulation joints, and part segmentation from one or more images. These intermediate estimates are used to generate an implicit function as the final shape reconstruction. Our approach can reconstruct objects even when they are observed in different articulations in images with large baselines, and allows reconstruction of animatable 3D models of objects. Quantitative and qualitative evaluations on our new benchmark dataset demonstrate that our method is able to achieve high reconstruction accuracy, especially as more views are added.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+![img](../images/3dioumatch_pipeline.png)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+<!-- Download our paper [here](https://thu17cyz.github.io/files/3dioumatch.pdf) -->
+
+Our project website is [here](https://thu17cyz.github.io/3DIoUMatch)
+
+View our project code [here](https://github.com/THU17cyz/3DIoUMatch)
