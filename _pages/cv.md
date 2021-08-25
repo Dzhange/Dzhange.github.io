@@ -11,19 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, ShanghaiTech University, 2021 (expected)
+* B.S. in Computer Science, ShanghaiTech University, 2021
 
 Experience
 ======
 <!-- * Collabrating with Prof. Abhinav -->
-* Research Assistant at GuibasLab, Stanford University, 2020 Apr. ~ Nov.
-* Undergraduate Researcher at Shanghai Center for Brain Science, 2019 Sept. ~ Now
-* Undergraduate Researcher at ShanghaiTech Visual and Intelligence Center, 2018 Sept. ~ Now
+* Research Assistant at GuibasLab, Stanford University, 2020 Apr. ~ 2020 Nov.
+* Undergraduate Researcher at Shanghai Center for Brain Science, 2019 Sept. ~ 2020 Mar.
+* Undergraduate Researcher at ShanghaiTech Visual and Intelligence Center, 2018 Sept. ~ 2021 Jun.
 
 Skills
 ======
 * Languages: Chinese, English, a bit Germany
-* Programing: Python, C family, Matlab, Latex, Rust
+* Programing: Python, C , Matlab, Latex, Rust
 
 
 <!-- * M.S. in Jekyll, GitHub University, 2014 -->
