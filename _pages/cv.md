@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+## Download My Resume [Here](https://drive.google.com/file/d/162yARrqSD8s1bxPzrjqtU5i2MG8QS7g5/view?usp=sharing)
+
 Education
 ======
 * B.E. in Computer Science, ShanghaiTech University, 2017 ~ 2021
