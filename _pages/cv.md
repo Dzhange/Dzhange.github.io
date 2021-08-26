@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, ShanghaiTech University, 2021
+* B.E. in Computer Science, ShanghaiTech University, 2017 ~ 2021
+* M.S. in Computer Vision, University of Michigan, 2021~Now
 
 Experience
 ======
