@@ -28,6 +28,11 @@ Skills
 * Languages: Chinese, English, a bit Germany
 * Programing: Python, C , Matlab, Latex, Rust
 
+Collaborators (No prioritized ranking)
+======
+Prof. Jingyi Yu; Prof. Shenghua Gao; Prof. Jisong Guan; Prof. Srinath Sridhar; Prof. Or Litany; Prof. Leonidas Guibas;
+Peihao Wang, Yuehao Wang, Yincen Xia, Haimin Luo, Xin Chen, Jianren Wang, Dr. Xin Wang
+
 
 <!-- * M.S. in Jekyll, GitHub University, 2014 -->
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
