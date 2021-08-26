@@ -7,18 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
-# Here are some photos of the wonderful moments!
+## Here are some photos of the wonderful moments 
 
+## MANY PICS! DO *NOT* open with Celluar Data
+
+### I definitely will optimize this page, at *some time*
 
 My favorite peice in this exhibition @Shanghai
-![just photo](../Life/{G$DH(7CXW~3D{X_4R(SY$Y.png)
+![just photo](../images/Life/{G$DH(7CXW~3D{X_4R(SY$Y.png)
 
 
 Rock carved with one thousand of Buddha. @Nanjing
-![just photo](../Life/O@853DZI]%V}UX~3X_TR1JP.png)
+![just photo](../images/Life/O@853DZI]%V}UX~3X_TR1JP.png)
 
 Oil Well @Da Qing
-![just photo](../Life/IMG_0047.JPG)
+![just photo](../images/Life/IMG_0047.JPG)
 
 A Big bowl!! @Zalan village
 ![just photo](../images/Life/IMG_0104.JPG)
@@ -37,7 +40,7 @@ Our sweet portable home.
 
 Bad News: I was forced to get quarantined, during my trip.
 Good News: I was quarantined in a Mountain Villa! @A-Er Mountain
-![just photo](../images/Life/IMG_0191.JPG)
+![just photo](../images/Life/IMG_0217.JPG)
 
 I'm the king of the grassland @Hulunbuir
 ![just photo](../images/Life/IMG_0270.JPG)
@@ -53,3 +56,25 @@ The Qing Palace. @Tianjin
 
 Even as a takeway, it's Best Bun ever! @Tianjin
 ![just photo](../images/Life/IMG_0465.JPG)
+
+Shenzhen is basically a working city, but the sea is great! @Shenzhen
+![just photo](../images/Life/IMG_0789.JPG)
+
+Now I'm fully armed @Doha
+![just photo](../images/Life/IMG_0864.JPG)
+
+Doha at glance @Doha
+![just photo](../images/Life/IMG_0868.JPG)
+
+Not sure it's a sun rise or fall @Somewhere up in the sky, probably above Germany
+![just photo](../images/Life/IMG_0888.JPG)
+
+Hi America! Hi Chicago! @Chicago
+![just photo](../images/Life/IMG_0904.JPG)
+
+My Grunkle(okay I learned this word from [Gravity Falls](https://www.youtube.com/show/SCXNazqGqx1fZ2wWmwf9L75w?season=1&sbp=CgEx))'s beautiful house  @Troy
+![just photo](../images/Life/IMG_0938.JPG)
+
+Ann Arbor!!! @Ann Arbor
+![just photo](../images/Life/IMG_0960.JPG)
+![just photo](../images/Life/IMG_0995.JPG)
