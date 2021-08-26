@@ -14,7 +14,7 @@ author_profile: true
 ### I definitely will optimize this page, at *some time*
 
 My favorite peice in this exhibition @Shanghai
-![just photo](../images/Life/{G$DH(7CXW~3D{X_4R(SY$Y.png)
+![just photo](../images/Life/shanghai_art.png)
 
 
 Rock carved with one thousand of Buddha. @Nanjing
