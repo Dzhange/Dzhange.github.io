@@ -13,11 +13,14 @@ author_profile: true
 
 ### I definitely will optimize this page, at *some time*
 
+
 My favorite peice in this exhibition @Shanghai
+
 ![just photo](../images/Life/shanghai_art.png)
 
 
 Rock carved with one thousand of Buddha. @Nanjing
+
 ![just photo](../images/Life/O@853DZI]%V}UX~3X_TR1JP.png)
 
 Oil Well @Da Qing
