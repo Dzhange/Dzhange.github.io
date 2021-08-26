@@ -31,6 +31,7 @@ Skills
 Collaborators (No prioritized ranking)
 ======
 Prof. Jingyi Yu; Prof. Shenghua Gao; Prof. Jisong Guan; Prof. Srinath Sridhar; Prof. Or Litany; Prof. Leonidas Guibas;
+
 Peihao Wang, Yuehao Wang, Yincen Xia, Haimin Luo, Xin Chen, Jianren Wang, Dr. Xin Wang
 
 
