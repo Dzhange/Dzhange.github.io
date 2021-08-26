@@ -22,4 +22,4 @@ Here are some of my favorite bands(and singers): Queens, Zed Zepplin, 郑钧, �
 
 [Try this!](https://youtu.be/RmJD_z-UWOc)
 
-Lyrics Meaning: Run, Run, the Giant, though you will fall.
+Lyrics Meaning: Run, run, you young giant, though you will fall.
