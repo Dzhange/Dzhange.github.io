@@ -26,7 +26,7 @@ Oil Well @Da Qing
 A Big bowl!! @Zalan village
 ![just photo](../images/Life/IMG_0104.JPG)
 
-The River that never freeze. 
+The River that never freeze.
 ![just photo](../images/Life/IMG_0135.JPG)
 
 Eggs with Ants. Yes, it's edible. @A-Er Mountain
@@ -39,6 +39,7 @@ Our sweet portable home.
 ![just photo](../images/Life/IMG_0191.JPG) @A-Er Mountain
 
 Bad News: I was forced to get quarantined, during my trip.
+
 Good News: I was quarantined in a Mountain Villa! @A-Er Mountain
 ![just photo](../images/Life/IMG_0217.JPG)
 
