@@ -1,7 +1,7 @@
 ---
 title: "StrobeNet: Category-Level Multiview Reconstruction of Articulated Objects"
-collection: researches
-permalink: /researches/StrobeNet
+collection: projects
+permalink: /projects/StrobeNet
 excerpt: 'We present StrobeNet, a method for category-level 3D reconstruction of articulating objects from one or more RGB 
 images.'
 date: 2020-12-1
