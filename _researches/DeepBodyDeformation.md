@@ -2,7 +2,7 @@
 title: "Deep Deformation Corrections in Human Skeletal Animation"
 collection: projects
 permalink: /projects/DBD
-excerpt: ''
+excerpt: 'We present a deformation correction technique called deep body deformation (DBD) to improve realism in skeletal animated human characters.'
 date: 2019-11-1
 # venue: 'Journal 1'
 # paperurl: 'None'
