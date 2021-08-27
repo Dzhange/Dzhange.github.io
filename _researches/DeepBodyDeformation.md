@@ -3,7 +3,7 @@ title: "Deep Deformation Corrections in Human Skeletal Animation"
 collection: projects
 permalink: /projects/DBD
 excerpt: ''
-date: 2019-11
+date: 2019-11-1
 # venue: 'Journal 1'
 # paperurl: 'None'
 
