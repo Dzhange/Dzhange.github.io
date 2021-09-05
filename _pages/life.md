@@ -83,5 +83,8 @@ Finally I'm in Ann Arbor!!! @Ann Arbor
 ![just photo](../images/Life/IMG_0960.JPG)
 ![just photo](../images/Life/IMG_0995.JPG)
 
+Garage GYM is all set @Meade Ct
+![just photo](../images/Life/Garage_GYM.JPG)
+
 First game, basketball here is basically back and forth @NCRB 
 ![just photo](../images/Life/NCRB_basketball.jpg)
