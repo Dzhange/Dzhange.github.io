@@ -82,3 +82,6 @@ My Grunkle(okay I learned this word from [Gravity Falls](https://www.youtube.com
 Finally I'm in Ann Arbor!!! @Ann Arbor
 ![just photo](../images/Life/IMG_0960.JPG)
 ![just photo](../images/Life/IMG_0995.JPG)
+
+First game, basketball here is basically back and forth @NCRB 
+![just photo](../images/Life/NCRB_basketball.jpg)
