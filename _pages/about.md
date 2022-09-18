@@ -8,18 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-## Welcome to my home!
+## Welcome to my cave!
 
-I'm 张哿(In chinese 哿 means joy and grace). I'm a first-year master student in University of Michigan, ECE department.
+I'm 张哿(In chinese 哿 means joy in a subtle way). I'm a second-year master student in Electrical and Computer Engineering - Computer Vision at University of Michigan. I finished my undergrad at ShanghaiTech University. I've also spent some time researching at Stanford University.
 
-My dream and the purpose of my research is to make everyone stronger, smarter and finally happier with intelligent machines.
+The goal of my research is to build a happier world with intelligent machines. During the past years I worked on computer vision&graphics, and since last year I've been working on designing perception algorithm for robots.
 
-During the past years I worked on computer vision&graphics, and recently I'm trying to combine my research with robotics.
+I love rock climbing, playing drums, and all forms of visual arts.
 
-I play basketball, lift weight, and listen rock n' roll. I also like arts in most forms but understand little about it.
+It's nice to meet you!
 
-Here are some of my favorite bands(and singers): Queen, Led Zepplin, 郑钧, 后海大鲨鱼...
-
-[Try this!](https://youtu.be/RmJD_z-UWOc)
-
-Lyrics Meaning: Run, Run, You Young Giant, Though You Will Fall.
