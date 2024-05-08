@@ -7,17 +7,29 @@ author_profile: true
 
 {% include base_path %}
 
-## Here are some photos of the wonderful moments 
+### Photos of Wonderful Moments 
 
-## MANY PICS! DO *NOT* open with Celluar Data
+Me in Boston again
+![just photo](../images/Life/boston_back.jpg)
 
-### I definitely will optimize this page, at *some time*
+Me in Yosemite, ft Joyce
+![just photo](../images/Life/yosemite.jpg)
+
+Me in Rocky Moutain
+![just photo](../images/Life/rocky.jpg)
+
+Me in Hawaii
+![just photo](../images/Life/hawaii.jpg)
+
+
+I'm in Ann Arbor!!! @Ann Arbor
+![just photo](../images/Life/IMG_0960.JPG)
+![just photo](../images/Life/IMG_0995.JPG)
 
 
 My favorite peice in this exhibition @Shanghai
 
 ![just photo](../images/Life/shanghai_art.png)
-
 
 Rock carved with one thousand of Buddha. @Nanjing
 
@@ -79,12 +91,3 @@ Hi America! Hi Chicago! @Chicago
 My Grunkle(okay I learned this word from [Gravity Falls](https://www.youtube.com/show/SCXNazqGqx1fZ2wWmwf9L75w?season=1&sbp=CgEx))'s beautiful house  @Troy
 ![just photo](../images/Life/IMG_0938.JPG)
 
-Finally I'm in Ann Arbor!!! @Ann Arbor
-![just photo](../images/Life/IMG_0960.JPG)
-![just photo](../images/Life/IMG_0995.JPG)
-
-Garage GYM is all set @Meade Ct
-![just photo](../images/Life/Garage_GYM.JPG)
-
-First game, basketball here is basically back and forth @NCRB 
-![just photo](../images/Life/NCRB_basketball.jpg)
