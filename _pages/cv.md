@@ -9,26 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
-## Download My Resume [Here](https://drive.google.com/file/d/1PJPo7UED9NS2KAgwszwe3lJkK9ppCGsr/view?usp=sharing)
+## Download My Resume [Here](https://drive.google.com/file/d/1Lhb9m4GBiD-IbDaRDIkAVKkLfdiQsRDy/view?usp=sharing)
 
 Education
 ======
+* M.S. in Electrical and Computer Engineering, University of Michigan, 2021~2023
 * B.E. in Computer Science, ShanghaiTech University, 2017 ~ 2021
-* M.S. in Computer Vision, University of Michigan, 2021~Now
+
 
 Experience
 ======
 <!-- * Collabrating with Prof. Abhinav -->
-* Research Assistant at GuibasLab, Stanford University, 2020 Apr. ~ 2020 Nov.
-* Undergraduate Researcher at Shanghai Center for Brain Science, 2019 Sept. ~ 2020 Mar.
-* Undergraduate Researcher at ShanghaiTech Visual and Intelligence Center, 2018 Sept. ~ 2021 Jun.
+* Software Engineer (Vision & Planning) at Righthand Robotics, Jan. 2023 ~ Present
+* Research Assistant at GuibasLab, Stanford University, Apr. 2020  ~ Nov. 2020 
+* Undergraduate Researcher at Shanghai Center for Brain Science, Sept. 2019  ~ Mar. 2020
+* Undergraduate Researcher at ShanghaiTech Visual and Intelligence Center, Sept. 2018 ~ Jun. 2021 
 
 Skills
 ======
-* Languages: Chinese, English, a bit Germany
-* Programing: Python, C , Matlab, Latex, Rust
+* Programing Languages: Python, C/C++/C#, Matlab, Latex, Rust, JavaScript
+* Tools: Pytorch, Tensorflow, OpenCV, Numpy, Docker, Git, Linux, LCM, ROS
 
-Collaborators (No prioritized ranking)
+Academic Collaborators (No prioritized ranking)
 ======
 Prof. Jingyi Yu; Prof. Shenghua Gao; Prof. Jisong Guan; Prof. Srinath Sridhar; Prof. Or Litany; Prof. Leonidas Guibas;
 
