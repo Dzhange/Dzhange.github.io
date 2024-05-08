@@ -9,13 +9,16 @@ author_profile: true
 
 ### Photos of Wonderful Moments 
 
-Me in Boston again
+I'm back to Boston again!
 ![just photo](../images/Life/boston_back.jpg)
 
 Me in Yosemite, ft Joyce
 ![just photo](../images/Life/yosemite.jpg)
 
-Me in Rocky Moutain
+Me in Joshua Tree National Park
+![just photo](../images/Life/joshua.jpg)
+
+Me in Rocky Moutain National Park
 ![just photo](../images/Life/rocky.jpg)
 
 Me in Hawaii
