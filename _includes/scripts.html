@@ -1,14 +1,13 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
-
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('img').forEach(function(img) {
-    if (!img.hasAttribute('loading')) {
-      img.setAttribute('loading', 'lazy');
-    }
-  });
-});
+(function() {
+  var toggle = document.querySelector('.nav-toggle');
+  var nav = document.querySelector('.site-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function() {
+      nav.classList.toggle('is-open');
+      toggle.classList.toggle('is-open');
+    });
+  }
+})();
 </script>
-
 {% include analytics.html %}
-{% include /comments-providers/scripts.html %}
