@@ -26,4 +26,16 @@ layout: default
       {{ content }}
     </div>
   </article>
+
+  {% if page.url == "/" %}
+    <section id="projects" class="homepage-section">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Selected research and engineering work.</p>
+      <div class="project-grid">
+        {% for post in site.researches reversed %}
+          {% include archive-single.html %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
 </div>

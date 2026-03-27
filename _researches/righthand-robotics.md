@@ -1,17 +1,17 @@
 ---
-title: "From 2,000 Labels to 200k Picks: Deploying Learned Visuomotor Policies at Righthand Robotics"
+title: "Learned Visuomotor Picking in Production"
 collection: projects
 permalink: /projects/righthand-robotics
-excerpt: 'How we replaced a rule-based picking heuristic with a learned visuomotor policy and scaled it to production.'
+excerpt: 'Replaced a rule-based picking heuristic with a learned visuomotor policy, scaling from 2,000 labeled examples to a continuously improving production system.'
 date: 2024-07-01
 ---
 
-At [Righthand Robotics](https://righthandrobotics.com/), I worked on bringing learned visuomotor policies into production for warehouse piece-picking.
+At [Righthand Robotics](https://righthandrobotics.com/), I led the development of learned visuomotor policies for warehouse piece-picking, replacing the existing rule-based system with a data-driven approach.
 
-When I joined, the picking system relied on a rule-based centroid heuristic to select suction targets. It worked reasonably well on easy cases, but struggled with cluttered bins and irregular objects. We wanted to replace it with a learned policy that could predict both suction points and approach angles directly from RGB-D images.
+**The problem.** The production picking system used a centroid-based heuristic to select suction targets. While adequate for simple cases, it struggled with cluttered bins and irregular objects. We set out to replace it with a learned policy that predicts both suction points and approach angles directly from RGB-D images.
 
-The challenge was bootstrapping. We started by collecting around 2,000 human-labeled picks—annotators marking optimal grasp points on real production images. This gave us enough signal to train an initial model that could outperform the heuristic on corner cases.
+**Bootstrapping from scratch.** We collected approximately 2,000 human-labeled picks—annotators marking optimal grasp points on real production images. This initial dataset was sufficient to train a model that outperformed the heuristic on challenging cases.
 
-Once we had a policy robust enough for deployment, the real iteration began. Every pick in production generated data: RGB-D observations, predicted targets, and binary success outcomes. We built tooling to ingest this stream and constructed a dataset that eventually grew to over 200k missions. With this "in-the-wild" data, we could continuously retrain and improve the model, catching failure modes that would have been impossible to anticipate in a lab setting.
+**Scaling through deployment.** Once deployed, every production pick generated training data: RGB-D observations, predicted targets, and binary success outcomes. We built an automated data pipeline to ingest this stream, growing the dataset to over 200,000 missions. This continuous retraining loop surfaced failure modes that would have been impossible to anticipate in a lab setting.
 
-The final system improved pick success by 8% on the difficult cases that had previously required manual intervention.
+**Results.** The learned system improved pick success rate by 8% on difficult cases that had previously required manual intervention.

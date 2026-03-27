@@ -13,16 +13,30 @@
 {% endif %}
 
 <a href="{{ base_path }}{{ post.url }}" class="project-card">
-  <article>
-    <div class="project-card-content">
-      <h2 class="project-card-title">{{ title }}</h2>
-      {% if post.date %}
-        <time class="project-card-date">{{ post.date | date: "%B %Y" }}</time>
-      {% endif %}
-      {% if post.excerpt %}
-        <p class="project-card-excerpt">{{ post.excerpt | markdownify | strip_html | strip_newlines | truncate: 160 }}</p>
-      {% endif %}
-    </div>
-    <span class="project-card-arrow">&rarr;</span>
-  </article>
+  <div class="project-card-thumbnail">
+    {% if post.thumbnail %}
+      <img src="{{ post.thumbnail | prepend: '/images/' | prepend: base_path }}" alt="{{ title }}">
+    {% else %}
+      <div class="project-card-thumbnail-placeholder">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+          <line x1="8" y1="21" x2="16" y2="21"></line>
+          <line x1="12" y1="17" x2="12" y2="21"></line>
+        </svg>
+      </div>
+    {% endif %}
+  </div>
+  <div class="project-card-body">
+    <h2 class="project-card-title">{{ title }}</h2>
+    {% if post.date %}
+      <time class="project-card-date">{{ post.date | date: "%B %Y" }}</time>
+    {% endif %}
+    {% if post.excerpt %}
+      <p class="project-card-excerpt">{{ post.excerpt | markdownify | strip_html | strip_newlines | truncate: 120 }}</p>
+    {% endif %}
+  </div>
+  <div class="project-card-footer">
+    <span>Read more</span>
+    <span class="arrow">&rarr;</span>
+  </div>
 </a>

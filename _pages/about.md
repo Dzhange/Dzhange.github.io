@@ -10,16 +10,18 @@ redirect_from:
   - /resume
 ---
 
-I am an Applied Scientist at the Robotics and AI Institute (formerly Boston Dynamics AI Institute), where I work on visuomotor policy learning and robotic manipulation.
+I am an Applied Scientist at the [Robotics and AI Institute](https://theaiinstitute.com/) (formerly Boston Dynamics AI Institute), where I develop visuomotor policies for robotic manipulation. My work focuses on bridging the gap between learned perception and real-world robot control.
+
+Previously, I deployed learning-based picking systems at [Righthand Robotics](https://righthandrobotics.com/) and conducted research on 3D reconstruction and human body modeling at Stanford and ShanghaiTech.
 
 ---
 
 ### Experience
-* Applied Scientist at Robotics and AI Institute, Jan. 2025 ~ Present
-* Software Engineer II at Righthand Robotics, Jan. 2023 ~ July 2024
-* Research Collaborator at Stanford University (Geometric Computation Lab), May 2020 ~ Apr. 2021
+* Applied Scientist, Robotics and AI Institute — Jan. 2025 – Present
+* Software Engineer II, Righthand Robotics — Jan. 2023 – July 2024
+* Research Collaborator, Stanford University (Geometric Computation Lab) — May 2020 – Apr. 2021
 
 ### Education
-* M.S. in Electrical and Computer Engineering, University of Michigan, 2021 ~ 2023
-* B.E. in Computer Science, ShanghaiTech University, 2017 ~ 2021
+* M.S. in Electrical and Computer Engineering, University of Michigan, 2021 – 2023
+* B.E. in Computer Science, ShanghaiTech University, 2017 – 2021
 
