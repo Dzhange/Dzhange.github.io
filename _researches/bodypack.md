@@ -3,7 +3,7 @@ title: "Guidance Waist Pack for the Visually Impaired"
 collection: projects
 permalink: /projects/waist_pack
 excerpt: 'A wearable visual aid system with path planning, navigation, and object detection for visually impaired users.'
-thumbnail: waistpack.jpg
+thumbnail: waist_pack.png
 date: 2019-6-1
 # venue: 'Journal 1'
 # paperurl: 'None'

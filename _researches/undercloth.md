@@ -3,6 +3,7 @@ title: "Towards 3D Human Shape Recovery Under Clothing"
 collection: projects
 permalink: /projects/shaper_under_cloth
 excerpt: 'A learning-based method for estimating clothing fitness and recovering human body shape from clothed 3D scans.'
+thumbnail: tightcap.png
 date: 2019-3-1
 # venue: 'Journal 1'
 # paperurl: 'None'
