@@ -3,6 +3,7 @@ title: "Learned Visuomotor Picking in Production"
 collection: projects
 permalink: /projects/righthand-robotics
 excerpt: 'Replaced a rule-based picking heuristic with a learned visuomotor policy, scaling from 2,000 labeled examples to a continuously improving production system.'
+thumbnail: rightpick_illustration.png
 date: 2024-07-01
 ---
 
