@@ -9,7 +9,8 @@ redirect_from:
 ---
 <section id="intro">
   <div id="intro-text">
-    <h1>{{ site.author.name }} <span class="native">{{ site.author.name_native }}</span></h1>
+    <h1>{{ site.author.name }}<span class="native">{{ site.author.name_native }}</span></h1>
+    <p class="tagline">Robot learning, and the data behind it.</p>
     <p>
       I'm a founding member of an early-stage startup in stealth, working on robot learning.
     </p>
@@ -44,13 +45,11 @@ redirect_from:
   <div class="list-item publication">
     <a href="{{ p.url | relative_url }}" class="thumbnail"><img src="{{ p.image | relative_url }}" alt="" loading="lazy"></a>
     <div class="project-description">
+      <p class="label">{{ p.meta }}</p>
       <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
-      <p>
-        {% if p.authors %}{{ p.authors }}<br>{% endif %}
-        <i>{{ p.meta }}</i><br>
-        {% if p.summary %}{{ p.summary }}<br>{% endif %}
-        {% for l in p.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% unless forloop.last %}&nbsp;&nbsp;&bull;&nbsp;&nbsp;{% endunless %}{% endfor %}
-      </p>
+      {% if p.authors %}<p class="authors">{{ p.authors }}</p>{% endif %}
+      {% if p.summary %}<p class="summary">{{ p.summary }}</p>{% endif %}
+      <p class="more">{% for l in p.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}</p>
     </div>
   </div>
   {% endfor %}
@@ -58,7 +57,7 @@ redirect_from:
 
 <section class="panel" data-panel="experience" hidden>
   {% for e in site.data.experience.work %}{% include experience-row.html e=e %}{% endfor %}
-  <h4 class="group-title">Education</h4>
+  <h4 class="group-title label">Education</h4>
   {% for e in site.data.experience.education %}{% include experience-row.html e=e %}{% endfor %}
 </section>
 
