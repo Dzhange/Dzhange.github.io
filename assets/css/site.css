@@ -87,15 +87,25 @@ h1 .native {
   vertical-align: 0.35em;
 }
 
-.tagline {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 1.15rem;
-  color: var(--muted);
-  margin: 0 0 2rem;
-}
-
 #intro p { margin: 0 0 1.1em; }
+
+#intro .lead {
+  font-family: var(--serif);
+  font-size: 1.42rem;
+  line-height: 1.45;
+  letter-spacing: -0.005em;
+  color: var(--text);
+  margin: 1.4rem 0 1.4rem;
+}
+#intro .lead em { font-style: italic; color: var(--link); }
+
+#intro .bio {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #6b665e;
+}
+#intro .bio a { color: var(--body); text-decoration-color: var(--rule); }
+#intro .bio a:hover { color: var(--text); text-decoration-color: currentColor; }
 
 #intro .links { margin-top: 1.8rem; display: flex; gap: 1.6rem; }
 .links a {
