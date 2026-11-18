@@ -1,0 +1,87 @@
+---
+layout: default
+redirect_from:
+  - /about/
+  - /about.html
+  - /cv/
+  - /resume
+  - /projects/
+---
+<section id="intro">
+  <div id="intro-text">
+    <h1>{{ site.author.name }} <span class="native">{{ site.author.name_native }}</span></h1>
+    <p>
+      I'm a founding member of an early-stage startup in stealth, working on robot learning.
+    </p>
+    <p>
+      Previously, I was an Applied Scientist at the <a href="https://theaiinstitute.com/">Robotics and AI Institute</a>
+      (formerly Boston Dynamics AI Institute), where I trained VLA models and diffusion policies on data from
+      UMI-style devices, and built the data pipeline and robot control stack around them. Before that, I shipped the
+      first end-to-end visuomotor picking policy to production at <a href="https://righthandrobotics.com/">RightHand Robotics</a>.
+    </p>
+    <p>
+      I build learning-based systems that let robots manipulate the physical world. I focus on
+      (a) <b>visuomotor policy learning</b> and (b) <b>the data collection, curation, and evaluation pipelines behind it</b>.
+    </p>
+    <p class="links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+    </p>
+  </div>
+  <div id="intro-image">
+    <img src="{{ '/images/portrait.jpg' | relative_url }}" alt="Photo of {{ site.author.name }}" fetchpriority="high">
+  </div>
+</section>
+
+<div id="filters" role="tablist">
+  <button class="button is-checked" role="tab" data-filter="projects">Projects</button>
+  <button class="button" role="tab" data-filter="experience">Experience</button>
+</div>
+
+<section class="panel" data-panel="projects">
+  {% for p in site.data.projects %}
+  <div class="list-item publication">
+    <a href="{{ p.url | relative_url }}" class="thumbnail"><img src="{{ p.image | relative_url }}" alt="" loading="lazy"></a>
+    <div class="project-description">
+      <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+      <p>
+        {% if p.authors %}{{ p.authors }}<br>{% endif %}
+        <i>{{ p.meta }}</i><br>
+        {% if p.summary %}{{ p.summary }}<br>{% endif %}
+        {% for l in p.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% unless forloop.last %}&nbsp;&nbsp;&bull;&nbsp;&nbsp;{% endunless %}{% endfor %}
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="panel" data-panel="experience" hidden>
+  {% for e in site.data.experience.work %}{% include experience-row.html e=e %}{% endfor %}
+  <h4 class="group-title">Education</h4>
+  {% for e in site.data.experience.education %}{% include experience-row.html e=e %}{% endfor %}
+</section>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('#filters .button');
+  var panels = document.querySelectorAll('.panel');
+  function show(name) {
+    var found = false;
+    panels.forEach(function (p) { var on = p.dataset.panel === name; p.hidden = !on; found = found || on; });
+    if (!found) return show('projects');
+    buttons.forEach(function (b) {
+      var on = b.dataset.filter === name;
+      b.classList.toggle('is-checked', on);
+      b.setAttribute('aria-selected', on);
+    });
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      show(b.dataset.filter);
+      history.replaceState(null, '', '#' + b.dataset.filter);
+    });
+  });
+  show(location.hash.slice(1) || 'projects');
+})();
+</script>

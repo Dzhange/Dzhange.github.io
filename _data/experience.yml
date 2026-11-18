@@ -1,0 +1,24 @@
+# Rows under the "Experience" tab. Mirrors ~/Ge_Resume_2026/2026_Jun.tex.
+work:
+  - role: Founding Member
+    org: Stealth Startup
+    dates: May 2026 – Present
+  - role: Applied Scientist
+    org: Robotics and AI Institute
+    org_url: https://theaiinstitute.com/
+    dates: Jan 2025 – Apr 2026
+  - role: Software Engineer II, Computer Vision & Machine Learning
+    org: RightHand Robotics
+    org_url: https://righthandrobotics.com/
+    dates: Jan 2023 – Jul 2024
+  - role: "Research Collaborator (advisor: Leonidas Guibas)"
+    org: Stanford University, Geometric Computation Lab
+    dates: May 2020 – Apr 2021
+
+education:
+  - role: M.S. in Electrical and Computer Engineering
+    org: University of Michigan
+    dates: 2021 – 2023
+  - role: B.E. in Computer Science
+    org: ShanghaiTech University
+    dates: 2017 – 2021

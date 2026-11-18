@@ -1,0 +1,8 @@
+{% assign e = include.e %}
+<div class="list-item experience">
+  <div>
+    <h3>{{ e.role }}</h3>
+    <p>{% if e.org_url %}<a href="{{ e.org_url }}">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}</p>
+  </div>
+  <span class="date">{{ e.dates }}</span>
+</div>

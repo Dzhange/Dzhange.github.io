@@ -1,0 +1,53 @@
+# Rows under the "Projects" tab, newest first.
+# `url` is where the title and thumbnail link to; `links` is the row of links under each entry.
+- title: Data Quality Evaluation for Human Demonstrations
+  image: /images/projects/dataeval-sim-replay.jpg
+  url: /projects/data-quality
+  meta: Ongoing · started at Robotics and AI Institute, 2025
+  summary: A curation pipeline that decides which handheld demonstrations are worth training on, using motion heuristics, chunk-level kinematic replay in simulation, and policy-based consistency scoring. It improved success by 20% on high-accuracy tasks, and the most consistent half of a multi-collector dataset matched the full set.
+  links:
+    - { label: Write-up, url: /projects/data-quality }
+
+- title: "Robot-Free Data Collection: UMI Pipeline and Residual SLAM"
+  image: /images/projects/umi-mocap-device.jpg
+  url: /projects/umi-capture
+  meta: Robotics and AI Institute, 2025 – 2026
+  summary: "Turning 200+ hours of handheld UMI demonstrations into robot policies. I trained a residual model that corrects pose-tracking error (30% lower on seen tasks, 15% on unseen), lifting delicate-task success from 20% to 45%. Also: why fast closed-loop policies can be more precise than their own data."
+  links:
+    - { label: Write-up, url: /projects/umi-capture }
+
+- title: Learned Visuomotor Picking in Production
+  image: /images/projects/rightpick.jpg
+  url: /projects/righthand-robotics
+  meta: RightHand Robotics, 2023 – 2024
+  summary: Replaced a segmentation-based suction heuristic with an end-to-end policy trained on production logs, evaluated with a tier-based benchmark I designed. Deployed with 8% higher pick success on unseen items and 30% fewer trash picks.
+  links:
+    - { label: Write-up, url: /projects/righthand-robotics }
+
+- title: "StrobeNet: Category-Level Multiview Reconstruction of Articulated Objects"
+  image: /images/projects/strobenet.jpg
+  url: https://dzhange.github.io/StrobeNet/
+  authors: <b>Ge Zhang</b>, Or Litany, Srinath Sridhar, Leonidas Guibas
+  meta: arXiv preprint, 2021
+  links:
+    - { label: Webpage, url: "https://dzhange.github.io/StrobeNet/" }
+    - { label: Paper, url: "https://arxiv.org/abs/2105.08016" }
+    - { label: Write-up, url: /projects/StrobeNet }
+
+- title: Towards 3D Human Shape Recovery Under Clothing
+  image: /images/projects/clothing.jpg
+  url: https://arxiv.org/abs/1904.02601v1
+  authors: Xin Chen, Anqi Pang, Yu Zhu, Yuwei Li, Xi Luo, <b>Ge Zhang</b>, Peihao Wang, Yingliang Zhang, Shiying Li, Jingyi Yu
+  meta: arXiv preprint, 2019
+  links:
+    - { label: Paper, url: "https://arxiv.org/abs/1904.02601v1" }
+    - { label: Write-up, url: /projects/shaper_under_cloth }
+
+- title: Guidance Waist Pack for the Visually Impaired
+  image: /images/projects/waistpack.jpg
+  url: /projects/waist_pack
+  meta: ShanghaiTech University, 2019
+  summary: A wearable aid that fuses RGB-D, GPS, IMU, and audio on an embedded board for navigation and object detection.
+  links:
+    - { label: Video, url: "https://m.bilibili.com/video/BV1vx411d7TA" }
+    - { label: Write-up, url: /projects/waist_pack }
